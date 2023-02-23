@@ -35,7 +35,7 @@
 			sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
 		};
 
-		layer_1 {
+		right {
 			bindings = <
 				&kp GRAVE &kp N1     &kp N2     &kp N3     &kp N4     &kp N5     &kp N6     &kp N7     &kp N8        &kp N9       &kp N0   &kp BSPC
 				&trans    &trans     &trans     &trans     &trans     &trans     &trans     &trans     &kp MINUS     &kp PLUS     &kp LBKT   &kp RBKT
@@ -44,7 +44,7 @@
 			>;
 		};
 
-		layer_2 {
+		left {
 			bindings = <
 				&kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8    &kp F9    &kp F10    &kp F11   &kp F12
 				&trans    &trans &trans &trans &trans &trans &trans &kp UNDER &kp PLUS  &kp LBRC  &kp RBRC &trans
@@ -53,7 +53,7 @@
 			>;
 		};
 
-		layer_3 {
+		control {
 			bindings = <
 				&reset &bt BT_NXT &bt BT_PRV &trans &trans &trans  &trans  &trans  &trans  &trans  &trans   &bt BT_CLR
 				&bootloader &kp F11 	   &kp F12    &kp F13    &kp F14    &kp F15 &kp F16 &kp F17 &kp F18 &kp F19 &kp F20 &trans
