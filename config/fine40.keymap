@@ -32,7 +32,7 @@
 				&kp LCTL        &kp LGUI &kp LALT &mo 1 &kp SPACE &trans  &kp SPACE &mo 2  &mo 3    &kp LEFT   &kp RIGHT    &kp K_MUTE
 			>;
 
-			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+			sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
 		};
 
 		right {
